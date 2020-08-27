@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "levelorder_traversal_queue",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "levelorder_traversal_queue::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-levelorder_traversal_queue-Debug-04c5a1c4adec12d4d8db.json",
+					"name" : "levelorder_traversal_queue",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/levelorder_traversal_queue/build",
+		"source" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/levelorder_traversal_queue"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
