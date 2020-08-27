@@ -1,0 +1,2 @@
+project(inorder_traversal_stack)
+add_executable(inorder_traversal_stack main.cpp)

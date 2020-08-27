@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/inorder_traversal_stack/binary_tree.h
+stack.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/inorder_traversal_stack/stack.h
+vector
+-
+memory
+-
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/inorder_traversal_stack/main.cpp
+iostream
+-
+stack.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/inorder_traversal_stack/stack.h
+binary_tree.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/inorder_traversal_stack/binary_tree.h
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/inorder_traversal_stack/stack.h
+
