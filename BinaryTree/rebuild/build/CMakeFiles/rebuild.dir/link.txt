@@ -1,0 +1,3 @@
+C:\installation\cmake\bin\cmake.exe -E rm -f CMakeFiles\rebuild.dir/objects.a
+C:\installation\mingw64\bin\ar.exe cr CMakeFiles\rebuild.dir/objects.a @CMakeFiles\rebuild.dir\objects1.rsp
+C:\installation\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\rebuild.dir/objects.a -Wl,--no-whole-archive -o rebuild.exe -Wl,--out-implib,librebuild.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rebuild.dir\linklibs.rsp
