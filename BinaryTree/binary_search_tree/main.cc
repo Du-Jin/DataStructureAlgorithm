@@ -10,5 +10,7 @@ int main() {
   Build(sequence, &tree);
   auto ptr = Search(tree.root_, 13);
   cout << ptr->data_ << endl;
+  BinarySearchTreeNode<int> node(15);
+  cout << Insert(tree.root_, node) << endl;
   return 0;
 }

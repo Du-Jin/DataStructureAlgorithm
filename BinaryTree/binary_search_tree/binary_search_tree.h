@@ -145,4 +145,38 @@ BinarySearchTreeNode<ElementType>* Search(
   }
 }
 
+// 二叉搜索树的插入操作
+// 参数1：二叉搜索树根节点的地址
+// 参数2：要插入结点的引用
+template <typename ElementType>
+bool Insert(BinarySearchTreeNode<ElementType>* root,
+            BinarySearchTreeNode<ElementType>& node) {
+  if(root == nullptr)
+    return false;
+
+  BinarySearchTreeNode<ElementType>* ptr = root;
+  while(1) {
+    if((node.data_) == (ptr->data_))
+      return false;
+    else if((node.data_) < (ptr->data_)) {
+      if((ptr->left_child_) == nullptr) {
+        (ptr->left_child_) = &node;
+        (node.parent_) = ptr;
+        return true;
+      }
+      else
+        ptr = ptr->left_child_;
+    }
+    else {
+      if((ptr->right_child_) == nullptr) {
+        (ptr->right_child_) = &node;
+        (node.parent_) = ptr;
+        return true;
+      }
+      else
+        ptr = ptr->right_child_;
+    }
+  }
+}
+
 #endif
