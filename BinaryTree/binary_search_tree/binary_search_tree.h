@@ -179,4 +179,71 @@ bool Insert(BinarySearchTreeNode<ElementType>* root,
   }
 }
 
+// 二叉搜索树的删除
+// 参数1：二叉搜索树的根节点地址
+// 参数2：要删除的结点元素值
+template <typename ElementType>
+bool Delete(BinarySearchTree<ElementType>* tree,
+           ElementType data) {
+  if(tree == nullptr)
+    return false;
+
+  if((tree->root_) == nullptr)
+    return false;
+
+  if(data < (tree->root_->data_)) {    // 左子树递归执行删除操作
+    BinarySearchTree<ElementType>* left_subtree = new
+        BinarySearchTree<ElementType>(tree->root_->left_child_);
+    return Delete(left_subtree, data);
+  }
+  else if (data > (tree->root_->data_)) {    // 右子树递归执行删除操作
+    BinarySearchTree<ElementType>* right_subtree = new
+        BinarySearchTree<ElementType>(tree->root_->right_child_);
+    return Delete(right_subtree, data);
+  }
+  else {
+    if((tree->root_->left_child_) &&
+       (tree->root_->right_child_)) {    // 要删除结点有左右两个子节点
+      // 在要删除节点左子树中寻找最大结点来填充要删除的结点
+      BinarySearchTreeNode<ElementType>* ptr = tree->root_->left_child_;
+      while(ptr->right_child_) {
+        ptr = ptr->right_child_;
+      }
+      (tree->root_->data_) = ptr->data_;
+      // 在左子树中删除最大结点
+      BinarySearchTree<ElementType>* left_subtree = new
+          BinarySearchTree<ElementType>(tree->root_->left_child_);
+      return Delete(left_subtree, ptr->data_);
+    }
+    else {  // 要删除结点仅有一个子节点或无子节点
+      if(tree->root_->left_child_) {  // 左子节点存在
+        auto parent = tree->root_->parent_;
+        auto child = tree->root_->left_child_;
+        if((parent->left_child_) == tree->root_)
+          (parent->left_child_) = child;
+        else
+          (parent->right_child_) = child;
+        (child->parent_) = parent;
+        (tree->root_) = child;
+      }
+      else if(tree->root_->right_child_) { // 右子节点存在
+        auto tmp = tree->root_->parent_;
+        if((tmp->right_child_) == tree->root_)
+          (tmp->right_child_) = tree->root_->right_child_;
+        else
+          (tmp->left_child_) = tree->root_->right_child_;
+        (tree->root_->right_child_->parent_) = tmp;
+        (tree->root_) = tree->root_->right_child_;
+      }
+      else {  // 要删除结点为叶节点
+        if((tree->root_->parent_->left_child_) == tree->root_)
+          (tree->root_->parent_->left_child_) = nullptr;
+        else
+          (tree->root_->parent_->right_child_) = nullptr;
+      }
+      return true;
+    }
+  }
+}
+
 #endif
