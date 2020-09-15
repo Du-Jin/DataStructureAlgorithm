@@ -1,0 +1,2 @@
+project(Mst)
+add_executable(mst main.cc)

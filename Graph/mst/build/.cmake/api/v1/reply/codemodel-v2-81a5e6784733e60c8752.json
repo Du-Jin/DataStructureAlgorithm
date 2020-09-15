@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Mst",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mst::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mst-Debug-e2316d564700cbc1ab5a.json",
+					"name" : "mst",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/mst/build",
+		"source" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/mst"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
