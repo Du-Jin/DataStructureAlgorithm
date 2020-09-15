@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/build",
+  "command": "C:\\installation\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\graph.dir\\main.cc.obj -c \"D:\\Box\\Processing Unclassified\\cpp\\DataStructureAlgorithm\\Graph\\main.cc\"",
+  "file": "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/main.cc"
+},
+{
+  "directory": "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/build",
+  "command": "C:\\installation\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\graph.dir\\graph.cc.obj -c \"D:\\Box\\Processing Unclassified\\cpp\\DataStructureAlgorithm\\Graph\\graph.cc\"",
+  "file": "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/graph.cc"
+}
+]

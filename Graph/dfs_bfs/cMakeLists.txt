@@ -1,0 +1,2 @@
+project(Graph)
+add_executable(graph main.cc graph.cc)

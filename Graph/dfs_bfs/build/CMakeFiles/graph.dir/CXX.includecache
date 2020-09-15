@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/graph.cc
+graph.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/graph.h
+iostream
+-
+queue.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/queue.h
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/graph.h
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/main.cc
+iostream
+-
+graph.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/graph.h
+queue.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/queue.h
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/Graph/queue.h
+
