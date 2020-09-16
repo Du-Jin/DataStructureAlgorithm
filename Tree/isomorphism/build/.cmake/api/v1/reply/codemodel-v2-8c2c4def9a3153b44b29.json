@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "isomorphism",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "isomorphism::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-isomorphism-Debug-4e7933a3738a1d5a5d27.json",
+					"name" : "isomorphism",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/isomorphism/build",
+		"source" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/isomorphism"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

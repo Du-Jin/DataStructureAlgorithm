@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cal_height",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cal_height::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cal_height-Debug-d35c621d147cb836f9a1.json",
+					"name" : "cal_height",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/cal_height/build",
+		"source" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/cal_height"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

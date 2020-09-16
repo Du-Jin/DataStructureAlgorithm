@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/build",
+  "command": "C:\\installation\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\huffman_tree.dir\\main.cc.obj -c \"D:\\Box\\Processing Unclassified\\cpp\\DataStructureAlgorithm\\BinaryTree\\huffman_tree\\main.cc\"",
+  "file": "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/main.cc"
+},
+{
+  "directory": "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/build",
+  "command": "C:\\installation\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\huffman_tree.dir\\huffman_tree.cc.obj -c \"D:\\Box\\Processing Unclassified\\cpp\\DataStructureAlgorithm\\BinaryTree\\huffman_tree\\huffman_tree.cc\"",
+  "file": "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/huffman_tree.cc"
+}
+]

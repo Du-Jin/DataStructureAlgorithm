@@ -1,0 +1,3 @@
+C:\installation\cmake\bin\cmake.exe -E rm -f CMakeFiles\levelorder_traversal_queue.dir/objects.a
+C:\installation\mingw64\bin\ar.exe cr CMakeFiles\levelorder_traversal_queue.dir/objects.a @CMakeFiles\levelorder_traversal_queue.dir\objects1.rsp
+C:\installation\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\levelorder_traversal_queue.dir/objects.a -Wl,--no-whole-archive -o levelorder_traversal_queue.exe -Wl,--out-implib,liblevelorder_traversal_queue.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\levelorder_traversal_queue.dir\linklibs.rsp

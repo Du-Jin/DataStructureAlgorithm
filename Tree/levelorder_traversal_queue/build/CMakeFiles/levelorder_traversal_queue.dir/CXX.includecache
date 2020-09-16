@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/levelorder_traversal_queue/binary_tree.h
+queue.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/levelorder_traversal_queue/queue.h
+vector
+-
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/levelorder_traversal_queue/main.cpp
+iostream
+-
+binary_tree.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/levelorder_traversal_queue/binary_tree.h
+queue.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/levelorder_traversal_queue/queue.h
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/levelorder_traversal_queue/queue.h
+

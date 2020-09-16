@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "inorder_traversal_stack",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "inorder_traversal_stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inorder_traversal_stack-Debug-3893974359439a63fd47.json",
+					"name" : "inorder_traversal_stack",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/inorder_traversal_stack/build",
+		"source" : "D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/inorder_traversal_stack"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

@@ -1,0 +1,3 @@
+C:\installation\cmake\bin\cmake.exe -E rm -f CMakeFiles\inorder_traversal_stack.dir/objects.a
+C:\installation\mingw64\bin\ar.exe cr CMakeFiles\inorder_traversal_stack.dir/objects.a @CMakeFiles\inorder_traversal_stack.dir\objects1.rsp
+C:\installation\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\inorder_traversal_stack.dir/objects.a -Wl,--no-whole-archive -o inorder_traversal_stack.exe -Wl,--out-implib,libinorder_traversal_stack.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\inorder_traversal_stack.dir\linklibs.rsp

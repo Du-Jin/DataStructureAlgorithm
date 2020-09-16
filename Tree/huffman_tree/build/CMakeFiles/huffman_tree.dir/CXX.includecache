@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/heap.h
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/huffman_tree.cc
+heap.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/heap.h
+huffman_tree.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/huffman_tree.h
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/huffman_tree.h
+heap.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/huffman_tree/heap.h
+memory
+-
+

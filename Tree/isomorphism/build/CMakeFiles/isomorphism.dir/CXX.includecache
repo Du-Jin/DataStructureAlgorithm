@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/isomorphism/binary_tree.h
+algorithm
+-
+vector
+-
+queue.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/isomorphism/queue.h
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/isomorphism/main.cc
+iostream
+-
+binary_tree.h
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/isomorphism/binary_tree.h
+
+D:/Box/Processing Unclassified/cpp/DataStructureAlgorithm/BinaryTree/isomorphism/queue.h
+
